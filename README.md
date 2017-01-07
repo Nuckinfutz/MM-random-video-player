@@ -1,4 +1,4 @@
-# Module: Compliments
+# Module: showvideo
 The `showvideo` randomly plays videos stored in 
 /MagicMirror/js/videos
 
