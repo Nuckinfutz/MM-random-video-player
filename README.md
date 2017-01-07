@@ -1,6 +1,7 @@
 # Module: Compliments
-The `compliments` module is one of the default modules of the MagicMirror.
-This module displays a random compliment.
+The `showvideo` randomly plays videos stored in 
+/MagicMirror/js/videos
+
 
 ## Using the module
 
