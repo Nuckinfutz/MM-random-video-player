@@ -1,0 +1,46 @@
+var config = {
+	port: 8080,
+
+	language: 'en',
+	timeFormat: 12,
+	units: 'metric',
+
+	modules: [
+		
+//-------------------------------------------------
+//		{
+//			module: 'clock',
+//			position: 'top_left',
+//			classes: 'default'
+//		},
+//-------------------------------------------------		
+		{
+//			module: 'compliments',
+			module: 'showvideo',
+			position: 'lower_third',
+			classes: 'dad'
+		},
+//-------------------------------------------------		
+		{
+			module: 'MMM-Facial-Recognition',
+			config: {
+				recognitionAlgorithm: 1,		
+				lbphThreshold: 50,			
+				fisherThreshold: 250,			
+				eigenThreshold: 3000,			
+				useUSBCam: false,			
+				trainingFile: '/home/pi/MagicMirror/modules/MMM-Facial-Recognition/training.xml',	
+				interval: 2,				
+				logoutDelay: 10,			
+				users: ['casey', 'dad'],			
+				defaultClass: "default",		
+				everyoneClass: "everyone"		
+			}
+		},		
+//-------------------------------------------------
+	]
+
+};
+
+/*************** DO NOT EDIT THE LINE BELOW ***************/
+if (typeof module !== 'undefined') {module.exports = config;}
