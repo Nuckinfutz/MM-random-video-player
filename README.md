@@ -15,6 +15,6 @@ Copy your videos into a directory under
 
 called 'videos' 
 
-Videos can be any type or length as long as they can be played with the omxplar built into raspbian. You can have as many videos as you want.
+Videos can be any type or length as long as they can be played with the omxplayer built into raspbian. You can have as many videos as you want.
 
 Also provided is a sample config.js file called config.js.showvideo
