@@ -15,8 +15,6 @@ Copy your videos into a directory under
 
 called 'videos' 
 
-Videos should be numbered sequentialy starting with 1.
-
-Ex 1.m4v 2.m4v etc. You can have as many videos as you want provided they are numbered correctly. You can also use most common video formats.
+Videos can be any type or length as long as they can be played with the omxplar built into raspbian. You can have as many videos as you want.
 
 Also provided is a sample config.js file called config.js.showvideo
